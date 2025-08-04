@@ -23,6 +23,7 @@ html {
   font-family: "Inter", sans-serif;
   color: #111111;
   box-shadow: 8px 8px 0 0 black;
+  border: 1px solid black;
 }
 
 .content {
