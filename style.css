@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-margin: 230.5px;
+  --main-bg: #f4d04e;
+}
+
+html {
+  background-color: var(--main-bg);
+  font-size: 10px;
+}
+
+.card {
+  margin: clamp(50px, 10vw, 21.9rem) auto;
+  width: 38.4rem;
+  padding: 2.4rem;
+  border-radius: 2rem;
+  background-color: white;
+  font-family: "Inter", sans-serif;
+  color: #111111;
+  box-shadow: 8px 8px 0 0 black;
+}
+
+.content {
+  margin: 2.4rem auto;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.learning {
+  width: 8.2rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-style: medium;
+  padding: 0.4rem 1.2rem;
+  background-color: var(--main-bg);
+  border-radius: 0.4rem;
+}
+
+.same {
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+.learning p {
+  font-weight: bold;
+}
+
+.date {
+  font-size: 1.4rem;
+  margin: 1.2rem 0;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 900;
+}
+
+h2:hover {
+  color: var(--main-bg);
+  cursor: pointer;
+}
+
+.description {
+  font-size: 1.6rem;
+  color: #6b6b6b;
+}
+.author {
+  display: flex;
+  width: 12.9rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.author img {
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+}
+
+.author p {
+  line-height: 150%;
+  font-weight: bold;
+  letter-spacing: 0;
+  font-size: 1.4rem;
+}
